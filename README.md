@@ -2,6 +2,9 @@
 
 As developers and other screen-based humans, we tend to forget that our bodies aren't made to sit in a chair and look at a screen for 8-14 hours a day. We built a slack bot at arus.io to remind us to take 5 mins a few times a day and stretch it out!!
 
+![Screen Shot 2021-03-05 at 11 45 25 AM](https://user-images.githubusercontent.com/444888/110162716-5511aa00-7dac-11eb-86ff-80674bf412a6.png)
+
+
 ## Grab the repo
 ```
 git clone ...
