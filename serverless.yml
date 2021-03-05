@@ -1,0 +1,19 @@
+service:
+  name: slack-yoga-bot-service
+
+plugins:
+  - serverless-bundle
+  - serverless-pseudo-parameters
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  memorySize: 256
+  stage: ${opt:stage, 'dev'}
+  region: us-west-1
+
+functions:
+  processYoga:
+    handler: src/handlers/processYoga.handler
+    # events:
+    #   - schedule: rate(1 minute)
